@@ -1,0 +1,17 @@
+/*==========================================
+Title:  Udemy Array List Challenge
+Author: Johan Danmo
+Date:   12 Mar 2020
+==========================================*/
+
+package academy.learnprogramming;
+
+public class Contacts {
+    private String name;
+    private String phoneNumber;
+
+    public Contacts(String name, String phoneNumber){
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
+}

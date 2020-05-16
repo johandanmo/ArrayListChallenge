@@ -34,13 +34,14 @@ public class Main {
                     mobile.addNewContact();
                     break;
                 case 4:
-                    updateContact();
+                    mobile.updateContact();
                     break;
                 case 5:
-                    removeContact();
+                    mobile.removeContact();
                     break;
                 case 6:
-                    searchContact();
+                    mobile.searchContact();
+                    break;
                 case 7:
                     System.out.println("Phone turned off.");
                     on = false;
@@ -50,17 +51,4 @@ public class Main {
             }
         }
     }
-
-    public static void updateContact(){
-
-    }
-
-    public static void removeContact(){
-
-    }
-
-    public static void searchContact(){
-
-    }
-
 }
